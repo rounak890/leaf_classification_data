@@ -41,9 +41,7 @@ class leaf_dataset(Dataset):
     def __getitem__(self,id):
         return self.ids[id],self.species[id]
     
-train_data = leaf_dataset(x)
-print(next(iter(train_data)))
-
+g
 
 # print(transform(img))
 
